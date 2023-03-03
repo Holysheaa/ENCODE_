@@ -33,9 +33,6 @@ body {
     display: flex;
     list-style: none;
 }
-.enncode ul li :nth-child(2) {
-    margin: 10px;
-}
 .enncode {
     width: 100%;
     height: 100%;
@@ -234,5 +231,27 @@ p samp span {
     }
     100% {
         color: white;
+    }
+}
+@media screen and (max-width: 768px) {
+    .encode-information-block {
+        display: block !important;
+        width: 100%;
+        height: 35%;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .mini-encode-information-block {
+        width: 100%;
+        height: 50%;
+        margin-top: 40px;
+    }
+    .encode-big-information-block {
+        margin-top: 5px;
+        width: 100%;
+        height: 500vh;
+    }
+    .encoode .enncode ul li:first-child {
+        margin-right: 10px;
     }
 }
